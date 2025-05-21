@@ -17,6 +17,8 @@ def agregar(lista: list,elemento: int | float)-> None:
         Returns:
                 None:               Esta función no retorna valor.
     """
+
+    
     if isinstance(lista, list):
         lista[len(lista):len(lista)] = [elemento]
     else:
@@ -25,3 +27,20 @@ def agregar(lista: list,elemento: int | float)-> None:
 lista = [1, 2, 3]
 agregar(lista, 5)
 print(lista)
+
+
+# CONTROLADOR - realiza la validacion de listas y de elemento por tipo:
+""" def controlador_de_lista (lista):
+    if type(lista) == list:
+        return True
+    else:
+        return False
+    
+def controlador_de_elemento (elemento):
+    if type(elemento) == int:
+        return True
+    else:
+        return False """
+
+# MAIN PARA PROBAR FUNCIONES
+#
