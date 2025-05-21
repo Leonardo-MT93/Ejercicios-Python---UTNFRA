@@ -1,10 +1,14 @@
+""" 
+Pendiente:
 
-inventario = [
-    # ["Laptop", 1500.00, 10],
-    # ["Silla", 200.00, 50],
-    # ["Libro", 15.00, 100],
-    # ["Monitor", 300.00, 30]
-]
+Crear modulos y estructura de carpetas
+Realizar validaciones
+Implementar funcionalidad de la opcion 3 - Sorting
+
+"""
+
+
+inventario = []
 
 def mostrar_menu_principal():
     print("\n*** Menú Principal ***")
