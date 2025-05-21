@@ -4,6 +4,7 @@ Pendiente:
 Crear modulos y estructura de carpetas
 Realizar validaciones
 Implementar funcionalidad de la opcion 3 - Sorting
+Documentacion de las funciones
 
 """
 
