@@ -1,0 +1,27 @@
+Título: Control de Acceso al Hangar Imperial 🌌 
+
+Contexto:
+El Imperio necesita un sistema confiable para controlar el acceso a su hangar. Como programador imperial, deberás construir un panel que permita operar tres funciones críticas: abrir la compuerta, iniciar el despegue y apagar el sistema.
+
+Requisitos del sistema:
+El programa debe mostrar un menú con las siguientes opciones:
+
+El menú se debe repetir hasta que el usuario seleccione la opción 4. Salir.
+Cada acción debe estar implementada en una función separada.
+Para abrir la compuerta o iniciar el despegue, se debe ingresar un código de autorización de exactamente 4 dígitos numéricos.
+No se puede continuar con la acción si:
+El código tiene letras u otros símbolos.
+Tiene menos o más de 4 caracteres.
+No coincide con el código correcto: 1138.
+
+🛑 ⚠️ Restricciones impuestas por el Alto Mando Imperial:
+Por orden del mismísimo Darth Vader, el desarrollo debe cumplir con las siguientes normas de seguridad imperial:
+❌ Prohibido el uso de estructuras rebeldes como listas, tuplas o diccionarios. Estas tecnologías han sido interceptadas por la Resistencia.
+❌ Prohibido usar bucles con la siguiente sintaxis while True, ya que podrían sobrecargar los sistemas del núcleo imperial.
+❌ Prohibido utilizar métodos de los strings como .isdigit(), .isalpha(), .strip(), .lower(), etc. El Emperador desconfía de funciones que ocultan lo que hacen.
+
+✅ Obligatorio usar funciones, bucles y condicionales de forma clara y estructurada. Cada acción debe ser ejecutada por un procedimiento específico.
+
+Tu misión:
+Desarrollar un programa que respete todas estas normas y sea capaz de mantener el orden y la eficiencia en el hangar imperial.
+
