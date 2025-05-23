@@ -1,0 +1,30 @@
+Contexto:
+Te encuentras en Camp Crystal Lake, un campamento aislado y misterioso en el que la noche trae consigo terror. Jason, el implacable asesino enmascarado, ha emergido para cazar a cualquier superviviente. Tu misión es escapar del campamento tomando decisiones acertadas a través de diferentes escenas.
+
+Objetivo:
+Crear un juego interactivo de "elige tu propia aventura" en el que el jugador debe tomar decisiones en un mínimo de 3 escenas diferentes para lograr escapar de Camp Crystal Lake sin ser atrapado por Jason. Cada escena representará un segmento de la historia y las decisiones se deberán procesar usando estructuras condicionales e iterativas.
+
+Requerimientos Técnicos:
+
+Estructuras Secuenciales:
+Emplear instrucciones básicas (asignación de variables, prints e inputs) para introducir y desplegar la narrativa, como también preguntar el nombre del jugador.
+
+Estructuras de Control Condicional:
+Utilizar if, elif, else (o match-case, si se desea) para evaluar la entrada del usuario y decidir el rumbo de la historia.
+
+Estructuras Iterativas:
+Emplear bucles (while o for) para repetir la solicitud de entrada en caso de opciones no válidas o para controlar el flujo de las escenas.
+
+Interacción:
+El juego usará inputs para recibir las decisiones del jugador y prints para mostrar la historia y los resultados.
+
+Número de Escenas:
+Escena 1: Inicio del juego en un refugio (por ejemplo, una cabaña o un edificio en el campamento).
+
+
+Escena 2: Un recorrido (por ejemplo, un pasillo o área del campamento) donde se debe elegir el camino correcto.
+Escena 3: Una situación final (por ejemplo, un bosque o área de escape) en la que la última decisión determina si se escapa o se es capturado.
+Se puede agregar una escena adicional de transición o validación de opciones para reforzar el aprendizaje del uso de bucles.
+
+Fin del Juego:
+El juego termina cuando el jugador toma una decisión equivocada (resultado: atrapado por Jason y "GAME OVER") o logra tomar las decisiones correctas en todas las escenas (resultado: ha escapado exitosamente).
