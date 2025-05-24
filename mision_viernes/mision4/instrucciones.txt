@@ -1,0 +1,38 @@
+Título: Forjando tu Compañía de Campeones
+Contexto:
+Eres el Director de Reclutamiento del Club de Invocadores y necesitas crear un sistema modular en Python para gestionar tu escuadrón de campeones de League of Legends. Cada campeón tiene atributos base y una habilidad definitiva. Para organizar el código, deberás usar módulos y paquetes, y trabajar únicamente con funciones, condicionales y bucles (no se permiten clases, listas, diccionarios, tuplas ni try/except).
+
+Objetivo General
+Dividir el programa en varios archivos .py dentro de paquetes para separar responsabilidades.
+Implementar funciones reutilizables que definan campeones, gestionen objetos y ofrezcan un menú interactivo.
+En el script main.py, orquestar la ejecución importando esas funciones.
+
+
+Funcionalidades Obligatorias
+Campeones (.py en camp/):
+mostrar_atributos(): imprime daño, salud y velocidad base.
+habilidad_ult(): imprime un mensaje de la habilidad definitiva.
+Objetos (.py en objetos/):
+Funciones que reciben un valor base y devuelven el valor aumentado (daño en el caso de la espada o velocidad en el caso de las botas).
+Menú interactivo (menu.py):
+mostrar_menu():retorna el mensaje:
+Mostrar atributos del campeón
+Usar habilidad definitiva
+Equipar objeto y mostrar estadísticas
+Salir
+leer_opcion(prompt, mínimo, máximo): pide la entrada del usuario, se guarda en una variable que llama a esta función. Validar con .isdigit() (investigar) y rango. Ejemplo: opción = leer_opcion("Selecciona una opción: ", 1, 4)
+main.py:
+Mostrar atributos del campeón.
+Usar habilidad definitiva.
+Equipar objeto y mostrar estadísticas.
+Salir.
+Validación de input sin try/except: usar str.isdigit() y comprobar rango en un while.
+
+Control de Flujo
+Condicionales if/elif/else para rutas según la opción.
+Bucles while para repetir hasta entrada válida o hasta “Salir”.
+Sin estructuras de datos complejas: todo con variables escalares y parámetros.
+
+
+
+
