@@ -1,0 +1,15 @@
+Gestión de pacientes en una clínica
+
+En la clínica "La Fuerza" se requiere desarrollar un sistema de gestión de pacientes. El sistema debe gestionar la información de los pacientes atendidos en el día. Para cada paciente, se almacenará:
+
+Número de historia clínica (un número entero).
+
+Nombre del paciente (una cadena de texto).
+
+Edad del paciente (un número entero).
+
+Diagnóstico (una cadena de texto).
+
+Cantidad de días de internación (un número entero).
+La información de todos los pacientes debe almacenarse en un array bidimensional, donde cada fila representará un paciente, y las columnas contendrán los datos mencionados arriba. Recordar que el array debe comenzar vacío.
+Presentamos un ejemplo de cómo debería verse:

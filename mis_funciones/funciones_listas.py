@@ -1,5 +1,7 @@
 from validaciones.validaciones import es_lista, es_numero_entero, es_numero_flotante
 
+#Correccion de listas - Tarea Obligatoria
+
 
 # MÁXIMOS Y MÍNIMOS
 def buscar_min_en_lista(lista : list)-> int | float:
@@ -256,6 +258,9 @@ def promedio_lista(lista: list)-> int | float:
     return suma / len(lista)
  
 def mostrar_datos(lista: list)-> None:
+
+
+
     """
     Esta función muestra los datos de la lista en un string.
     
